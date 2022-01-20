@@ -42,6 +42,15 @@ To force a full build by cleaning up cached artifacts:
 npm run rebuild
 ```
 
+# Use docker on developer environment
+
+First you need install [docker install](https://docs.docker.com/engine/install/) and [docker compose](https://docs.docker.com/compose/install/)
+
+```sh
+chmod a+x .docker/entrypoint.sh
+npm run container:up
+```
+
 ## Fix code style and formatting issues
 
 ```sh

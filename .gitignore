@@ -65,3 +65,6 @@ typings/
 
 # Caching node modules in development environment
 .npm-cache
+
+#ElasticSearch
+.docker/elasticdata

@@ -76,6 +76,10 @@ npm run lint:fix
 npm test
 ```
 
+## Environment
+
+Create a .env file based on the variables described on the given [.env.example file](.env.example)
+
 ## What's next
 
 Please check out [LoopBack 4 documentation](https://loopback.io/doc/en/lb4/) to

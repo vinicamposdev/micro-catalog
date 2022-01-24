@@ -13,6 +13,7 @@ services:
       - .:/home/node/app
     networks:
       - app-network
+      - micro-rabbitmq_micro-catalog
 
   # config tutorial: https://www.elastic.co/guide/en/elastic-stack-get-started/current/get-started-docker.html
   # TODO: set security config https://www.elastic.co/guide/en/elasticsearch/reference/7.16/security-minimal-setup.html#_prerequisites_10
@@ -39,3 +40,5 @@ services:
 networks:
   app-network:
     driver: bridge
+  micro-rabbitmq_micro-catalog:
+    external: true
